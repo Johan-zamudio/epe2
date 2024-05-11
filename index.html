@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabla de Productos</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+
+    <h2>Filtro de Productos</h2>
+
+    <div class="filters">
+        <label for="proveedor">Proveedor:</label>
+        <select id="proveedor">
+            <option value="">Todos</option>
+        </select>
+
+        <label for="categoria">Categoría:</label>
+        <select id="categoria">
+            <option value="">Todas</option>
+        </select>
+
+        <button id="filtrarBtn">Filtrar</button>
+    </div>
+
+    <table id="productos_table">
+        <thead>
+            <tr>
+                <th>Id Producto</th>
+                <th>Nombre Producto</th>
+                <th>Proveedor</th>
+                <th>Categoría</th>
+                <th>Cantidad Por Unidad</th>
+                <th>Precio Unidad</th>
+                <th>Unidades En Existencia</th>
+                <th>Unidades En Pedido</th>
+                <th>Nivel Nuevo Pedido</th>
+                <th>Suspendido</th>
+            </tr>
+        </thead>
+        <tbody>
+        </tbody>
+    </table>
+
+    <script src="productos.js"></script>
+</body>
+</html>
